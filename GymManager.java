@@ -10,7 +10,6 @@ public class GymManager {
     private Scanner sc = new Scanner(System.in);
 
     public GymManager() {
-        // Default categories
         categories.add("Cardio");
         categories.add("Strength");
         categories.add("Flexibility");
@@ -140,4 +139,5 @@ public class GymManager {
             System.out.println("Equipment not found.");
         }
     }
+
 }

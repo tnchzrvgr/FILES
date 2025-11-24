@@ -35,4 +35,5 @@ public abstract class Equipment {
     }
 
     public abstract void displayInfo();
+    public abstract void displayErrorMessage(String msg);
 }

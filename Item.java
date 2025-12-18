@@ -8,9 +8,18 @@ public class Item extends Equipment {
 
     @Override
     public void displayInfo() {
-        System.out.println("ID: " + getId() + " | Name: " + getName() + " | Category: " + getCategory() + " | Qty: " + getQuantity() + " | Condition: " + getCondition());
+        System.out.println("┌───────────────────────────────────────────────────────────────────┐");
+        System.out.println(
+                "  ID: " + getId() +
+                        " | Name: " + getName() +
+                        " | Category: " + getCategory() +
+                        " | Qty: " + getQuantity() +
+                        " | Condition: " + getCondition()
+        );
+        System.out.println("└───────────────────────────────────────────────────────────────────┘");
     }
     public void displayErrorMessage(String msg){
         management.displayErrorMessage(msg);
     }
 }
+

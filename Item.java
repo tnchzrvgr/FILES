@@ -8,7 +8,7 @@ public class Item extends Equipment {
 
     @Override
     public void displayInfo() {
-        System.out.println("┌───────────────────────────────────────────────────────────────────┐");
+        System.out.println("┌──────────────────────────────────────────────────────────────────────────┐");
         System.out.println(
                 "  ID: " + getId() +
                         " | Name: " + getName() +
@@ -16,10 +16,11 @@ public class Item extends Equipment {
                         " | Qty: " + getQuantity() +
                         " | Condition: " + getCondition()
         );
-        System.out.println("└───────────────────────────────────────────────────────────────────┘");
+        System.out.println("└──────────────────────────────────────────────────────────────────────────┘");
     }
     public void displayErrorMessage(String msg){
         management.displayErrorMessage(msg);
     }
 }
+
 
